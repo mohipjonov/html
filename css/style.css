@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Iceberg&display=swap');
+
+@font-face {
+    font-family: "Creepster";
+    src: url(../Creepster-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Damion';
+    src: url(../Damion-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url(../Inter-VariableFont_slnt\,wght.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1000px;
+    border-radius: 8px;
+    margin: 10px auto;
+    padding: 0;
+}
+
+.left {
+    width: 500px;
+    height: 800px;
+    background: #000000;
+    float: left;
+}
+
+.left_h1 {
+    margin-top: -40px;
+    margin-left: 100px;
+    font-family: 'Iceberg';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 200px;
+    line-height: 299px;
+    background: conic-gradient(from 186.44deg at 31.29% 41.9%, rgba(146, 216, 247, 0.25) 0deg, rgba(119, 123, 125, 0.67) 337.16deg, rgba(146, 216, 247, 0.25) 360deg);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.right {
+    width: 1200px;
+    background: linear-gradient(#384456 65%, #272D36 13.65%);
+}
+
+.right_h1 {
+    position: relative;
+    width: 1150px;
+    height: 314px;
+    top: -30px;
+    left: 20px;
+    font-family: 'Iceberg';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 200px;
+    line-height: 299px;
+    background: conic-gradient(from 186.44deg at 31.29% 41.9%, rgba(146, 216, 247, 0.25) 0deg, rgba(119, 123, 125, 0.67) 337.16deg, rgba(146, 216, 247, 0.25) 360deg);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+h4 {
+    position: relative;
+    width: 500px;
+    height: 70px;
+    left: 70px;
+    top: 10px;
+    font-family: 'Creepster';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 70px;
+    color: #FFFFFF;
+
+}
+
+h6 {
+    position: relative;
+    left: 60px;
+    top: 16px;
+    font-family: 'Damion';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    color: #FFFFFF;
+
+}
+
+p {
+    margin-top: 150px;
+    margin-left: 50px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+
+    color: #FFFFFF;
+}
+
+a {
+    position: relative;
+    padding: 16px 30px;
+    text-decoration: none;
+    color: white;
+    background: rgba(119, 123, 125, 0.67);
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 633;
+    font-size: 30px;
+    line-height: 44px;
+    left: 230px;
+    top: -50px;
+}
+
+.p2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Damion';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 41px;
+    margin-top: 70px;
+    margin-left: -190px;
+    color: #FFFFFF;
+}
+
+.tom {
+    width: 580px;
+
+}
